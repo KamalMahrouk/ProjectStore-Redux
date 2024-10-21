@@ -13,21 +13,23 @@ import Footer from './component/Footer';
 function App() {
   return (
     <>
-      <Navbar />
       <Routes>
       <Route path='/' element={
   <div>
+    <Navbar />
     <MarqueText />
     <Uncontrolled />
     <StorList />
   </div>} />
         <Route path='/About' element={
           <>
+          <Navbar />
           <About />
           <Footer />
           </>} />
         <Route path='/Contact' element={
           <div>
+            <Navbar />
             <Contact />
             <Footer />
         </div>}/>
