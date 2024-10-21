@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Uncontrolled() {
   return (
-    <Carousel className='h-24' controls={false}>
+    <Carousel className='h-24 mt-10 mb-10' controls={false}>
       <Carousel.Item>
         <img alt='' src="https://www.jdmedia.co.za/images/carousel/Ecommerce-Banner-1920.jpg" className='h-72 w-full' text="First slide" />
         <Carousel.Caption>
